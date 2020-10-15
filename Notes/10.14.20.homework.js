@@ -15,5 +15,7 @@
 //console.log(string.charAt(0))
 //console.log(string.charAt(3))
 
-let string = "welcome to my website"
-console.log(string.charAt(7))
+//let string = "welcome to my website"
+//console.log(string.charAt(7))
+
+
