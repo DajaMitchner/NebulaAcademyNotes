@@ -13,9 +13,10 @@
 //console.log(string.length) //34
 //console.log(string.charAt(33)) //s
 //console.log(string.charAt(5)) //e
-//console.log(string.replace("a","-")) //we -r learning new string methods
+//console.log(string.replace(/a/g,"-")) //we -r learning new string methods
 //console.log(string.toUpperCase()) //WE ARE LEARNING NEW STRING METHODS
 //console.log(string.toLowerCase()) //we are learning new string methods
 
-//let chocolate = 'My favorite ice cream flavor is chocolate'
-//console.log(chocolate)
+// let iceCream = 'chocolate'
+// console.log(`My favorite icecream flavor is ` + iceCream)
+
