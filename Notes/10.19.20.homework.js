@@ -1,8 +1,10 @@
 // console.log(15%2)
-// let string = "the remainder of 15/2 is 1"
+//let string = 15 % 2
+//console.log('the remainder of 15/2 is' + ' 1')
 
-// console.log(30%2)
-// let string = 'the remainder of 30/2 is 0'
+//console.log(30%2)
+//let string = 30%2
+//console.log('the remainder of 30/2 is' + ' 0')
 
 //console.log(5 == '5') //true
 
