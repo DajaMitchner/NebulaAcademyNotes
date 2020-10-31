@@ -1,41 +1,40 @@
-//function sumNum (num1, num2){
- //   return num1 + num2
-//}
-//console.log(sumNum(5, 5))//10
+// function sumNum (num1, num2){
+//    return num1 + num2
+// }
+// console.log(sumNum(5, 5))//10
 
 //PROBLEM 2
 // function divisionRemainder (num1, num2){
-//     return num1 % num2
+//     return num1/num2
 // }
 // console.log(divisionRemainder(10, 2))
 // let number = '5'
 // let remainder = '0'
 // console.log(remainder)
-
 // function divisionRemainder2 (num1, num2){
 //     return `${num1} divided by ${num2} is ${number} with a remainder of ${remainder}`}
 //     console.log(divisionRemainder2(10, 2, 5, 0))
 //10 divided by 2 is 5 with a remainder of 0
 
 //PROBLEM 3
-// function randomNums (num1, num2){
-//     return (num1, num2)
+// function randomNum (num1, num2){
+//     return (Math.random()*1000)
 // }
-// let num1 = 1
-// let num2 = 1000
-// console.log(randomNums(Math.random()))//getting undefined
+// console.log(randomNum(Math.random()))
 
 //PROBLEM 4
-//function theType (dataType){
-  //  return typeof (dataType)
-//}
-//console.log(theType('hey')) //string
+// function theType (dataType){
+//    return typeof dataType
+// }
+// console.log(theType('hey')) //string
 
 //PROBLEM 5
+// let array = ['blue','red','orange','pink']
+// console.log(array)
 // function isItArray (arrayChecker){
 //     return typeof (arrayChecker)
 // }
-// console.log(isItArray) does this need array inside? getting back undefined
+// console.log(isItArray(array))
 
 //PROBLEM 6
 // let string = 'blue, yellow, brown, purple, green, pink'
@@ -43,7 +42,7 @@
 // function fifthIndex (string){
 //     return (string)
 // }
-//console.log(fifthIndex(string[5])) //returning blank space
+// console.log(fifthIndex(string[5])) //returning blank space
 
 //PROBLEM 7
 // function myInitials (firstName, lastName){

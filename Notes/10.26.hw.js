@@ -43,27 +43,27 @@
 
 let names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef','Daja','Eddie']
 console.log(names)
-function welcome (names){
-    return `hello ${names}`
-}
-console.log(welcome('Maurice and Chelsea!'))
-
-function welcome (names){
-    return `Hi ${names}`
-}
-console.log(welcome('Jasmine and Daja!'))
-
-//function welcome (names){
-//return `Howdy ${names}`
- //}
-//console.log(welcome('Eddy!'))
+// function welcome (names){
+//     return `hello ${names}`
+// }
+// console.log(welcome('Maurice and Chelsea!'))
 
 // function welcome (names){
-//     return `Happy Monday, ${names}`
+//     return `Hi ${names}`
 // }
-// console.log(welcome('Anitria!'))
+// console.log(welcome('Jasmine and Daja!'))
+
+// function welcome (names){
+// return `Howdy ${names}`
+//  }
+// console.log(welcome('Eddy!'))
+
+// function welcome (names){
+//     return `Happy Monday, ${names}!`
+// }
+// console.log(welcome(names[3]))
 
 // function welcome (names){
 //     return `Hey ${names}`
 // }
-// console.log(welcome('Tauseef!'))
+// console.log(welcome())
