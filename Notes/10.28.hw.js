@@ -32,44 +32,44 @@
 // let array = ['blue','red','orange','pink']
 // console.log(array)
 // function isItArray (arrayChecker){
-//     return typeof (arrayChecker)
+//     return Array.isArray(arrayChecker)
 // }
-// console.log(isItArray(array))
+//console.log(isItArray(array))//true
 
 //PROBLEM 6
-// let string = 'blue, yellow, brown, purple, green, pink'
-// console.log(string)
-// function fifthIndex (string){
-//     return (string)
+// function fifthIndex (aString){
+//     return aString[5]
 // }
-// console.log(fifthIndex(string[5])) //returning blank space
+// console.log(fifthIndex('this is another string'))
 
 //PROBLEM 7
 // function myInitials (firstName, lastName){
-//     return (firstName, lastName)
+//     return firstName[0] + lastName[0]
 // }
-// let firstName = 'daja'
-// let lastName = 'mitchner'
-// console.log(firstName[0]+lastName[0]) //dm
+// let first = 'daja'
+// let last = 'mitchner'
+// console.log(myInitials(first, last))
+
+
 
 //PROBLEM 8
-// let string = 'twitter, instagram, linkedin, facebook'
-// console.log(string)
-// function upperCase (string){
-//     return (string)
+// let socialMedia = 'twitter, instagram, linkedin, facebook'
+// console.log(socialMedia)
+// function upperCase (theString){
+//     return theString.toUpperCase()
 // }
-// console.log(upperCase(string))//still lower case
+// console.log(upperCase(socialMedia)) //still lower case
 
 //PROBLEM 9
-// let string = ('orange', 'banana', 'apple', 'grape', 'mango')
+// let fruits = ('orange', 'banana', 'apple', 'grape', 'mango')
 // function lastChar (string){
-//     return (string)
+//     return string[string.length -1] 
 // }
-// console.log(lastChar(string)) //mango
+// console.log(lastChar(fruits)) //mango
 
 //PROBLEM 10
-// let counties = ['Mexico','Canada','Italy','United Kingsdom', 'Thailand', 'India']
-// console.log(counties.indexOf('India'))
+// let countries = ['Mexico','Canada','Italy','United Kingsdom', 'Thailand', 'India']
+// console.log(countries.indexOf('India'))
 // let last = 'India'
 // function lastElement (last){
 //     return `the last element in the array is ${last}`
