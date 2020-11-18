@@ -1,4 +1,4 @@
-let nested = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17, [18], 19, 20]
+//let nested = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17, [18], 19, 20]
 // function nestedLoop (array){
 //     for (let i = 0; i < array.length; i++){
 //         let num = array [i]
@@ -44,7 +44,7 @@ let nested = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17,
 // }
 //     console.log(nestedLoop(nested))//
 
-let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
+//let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'css'], 'sql']
 
 // function nestedLoop (array){
 //     for (let i = 0; i < array.length; i++){
@@ -117,3 +117,4 @@ let nestedArr = ['full', 'stack', ['node', 'react',], [], ['redux'], ['html', 'c
 //     return 'done'
 // }
 // console.log(four(nestedArr)) // full node html done
+
