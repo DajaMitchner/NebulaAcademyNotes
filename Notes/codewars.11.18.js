@@ -6,19 +6,25 @@
 
 
 
-https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
+//https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
 // function getAverage(marks){
 //     let total = 0
 //     for (let i = 0; i <= marks.length -1; i++){
-//       console.log(total)
 //       total += marks[i]
 //     } let average = total / marks.length
 //     return Math.floor(average)
-//      }
+// }
 
-DONT GET 3
 
-//NUMBER 4 
+https://www.codewars.com/kata/5f70c883e10f9e0001c89673/solutions/javascript
+// const flip=(dir, arr)=>{
+//     if (dir === 'R'){
+//       return arr.sort((a, b) => a- b);
+//     }
+//     return arr.sort((a, b) => b -a)
+//   }
+
+//NUMBER 4 wrong
 
 // function reverseWords(str){
 //     let tempArray = []
