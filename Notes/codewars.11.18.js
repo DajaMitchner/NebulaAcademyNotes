@@ -57,7 +57,7 @@ https://www.codewars.com/kata/5f70c883e10f9e0001c89673/solutions/javascript
         //     return total
         //   }
 
-https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/solutions/javascript
+//https:www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/solutions/javascript
 // function invert(array) {
 //     let newArray = []
 //     for (let i = 0; i < array.length; i++){
