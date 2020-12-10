@@ -13,14 +13,9 @@
 //QUESTION 2
 //Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
 // function digitize(n) {
-//     let oldArray = (''+n).split('')
-//     let newArray = []
-//     for (let i < oldArray.length-1; i <= 0; i--){
-//       newArray[i] = oldArray.shift()
-//     }
-//     return newArray
+//     return String(n).split('').map(Number).reverse()
 //   }
-//DID NOT PASS
+//PASS
 
 //Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
 // function sumMix(x){
