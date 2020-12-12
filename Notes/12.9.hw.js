@@ -6,47 +6,75 @@
 // console.log(quarterOf(3))
 
 //NUMBER 2
-//Your goal is to return multiplication table for number that is always an integer from 1 to 10.
-//multiplcation table
-//number always an integer
-//must be from 1 to 10
-//will be a string
+// function multiTable(number) {
+//     let result = ''
+//     for (let i = 1; i <= 10; i++){
+//       let total = number * i
+//       result += i + ' * ' + number + ' = ' + total + '\n'
+//       console.log(result)
+//     }
+//      return result.slice(0,-1)
+//    }
+   
 
 
 //NUMBER THREE
 // You have to write a function that accepts three parameters:
 // function enough(cap, on, wait) {
-//     let newArray = []
-//     let count = cap
-//     if (wait + on === cap){
-//       return 0
+// let total = on + wait;
+// if (total <= cap){
+//       return 0;
+//     }else{
+//       return total - cap;
 //     }
-//     for (let count = cap; count <= on; on += wait){
-//     newArray.push(count)
-//     }
-//     return newArray
-//   }
-//RETURNED ONE TEST CASE NOT THE OTHER 2
+// }
+
 
 
 //NUMBER 4
 // Build a function that returns an array of integers from n to 1 where n>0.
 // const reverseSeq = n => {
 //     let arr = []
-//     for (let i = 1; i <= n; i++) {
+//     for (let i = n; i >= 1; i--) {
 //      arr.push(i);
 //   }
 //     return arr
-//     }
-//PASSED ONLY 3 TEST CASES, SO CLOSE
+
 
 
 //number 5
 // When provided with a number between 0-9, return it in words.
 // function switchItUp(number){
-//     let words = ['','One','Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
-    
+//    function switchItUp(number){
+// let numberObject = {
+//     '0' : 'Zero'
+//     '1' : 'One'
+//     '2' : 'Two'
+//     '3' : 'Three'
+//     '4' : 'Four'
+//     '5' : 'Five'
+//     '6' : 'Six'
+//     '7' : 'Seven'
+//     '8' : 'Eight'
+//     '9' : 'Nine'
+//   }
+//   for (let key in numberObject){
+//     if (number === Nunmber(key)){
+//       return numberObject[key]
 //     }
-//set an array with words of the numbers to return the word for given number in index
+//   }
+//   }
 
 
+//NUMBER 6
+// function warnTheSheep(queue) {
+//     queue = queue.reverse()
+//   if (queue[0] === 'wolf'){
+//     return 'Pls go away and stop eating my sheep'
+//   }
+//     for (let i = 0; i < queue.length; i++){
+//       if (queue[i] === 'wolf'){
+//         return `Oi! Sheep number ${i}! You are about to be eaten by a wolf!`
+//       }
+//     }
+//   }
