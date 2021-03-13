@@ -1,13 +1,12 @@
 //number 1
 //At the annual family gathering, the family likes to find the oldest living family member’s age and the youngest family member’s age and calculate the difference between them.
 // function differenceInAges(ages){
-//     let time = []
-//    for (let i = 0; i < ages; i++){
-//      console.log(ages[i])
-//     }
-//     return ages.push(time)
-//   }
-  
+//  let max = Math.max(...ages)
+//  let min = Math.min(...ages)
+//  let difference = max-min
+//  return [min, max, difference]
+// }
+
 //number 2
 //The output should be two capital letters with a dot separating them.
 // function abbrevName(name){

@@ -1,14 +1,12 @@
 //number 1
 //Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
-//function between(a, b) {
-    //   let newA = 1
-    //   let newB = 4
-    //   let array = []
-    //   return(newA <= newB){
-    //     array.push(newA++)
-    //   }
-    // }
-    
+// function between(a, b) {
+//     let arr = []
+//     for (let i = a; i <= b; i++){
+//       arr.push(i)
+//     }
+//         return arr
+//       }
     // set up a new variable for the value of a
     // set up a new variable for the value of b
     // create a new array in order to push the returned value
@@ -18,7 +16,7 @@
 //number 2
 //Complete the function, which calculates how much you need to tip based on the total amount of the bill and the service.
 // function calculateTip(amount, rating) {
-//     let newRate = []
+//     let newRate = rating.toLowerCase()
 //       if(newRate=== "excellent"){
 //     return Math.ceil(amount*20/100);
 //   }
@@ -55,6 +53,13 @@
 //       newOne++
 //     }
 //       return result;
+//   }
+// function drawStairs(n) {
+//     let result = []
+//     for (let i = 0; i < n; i++){
+//       retuslt[i] = `${' '.repeat(i)}I`
+//     }
+//     return result.join('\n')
 //   }
 //passing one test case, trying to figure out how to get the first stair to have 'I' = '/n'
 
